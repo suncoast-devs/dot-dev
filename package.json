@@ -2,11 +2,15 @@
   "name": "suncoast.io",
   "private": true,
   "scripts": {
-    "start": "astro dev",
-    "build": "astro build"
+    "start": "netlify dev"
   },
   "devDependencies": {
     "astro": "^0.16.1",
-    "tailwindcss": "^2.2.4"
+    "netlify-cli": "^4.0.5",
+    "tailwindcss": "^2.2.4",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@netlify/functions": "^0.7.2"
   }
 }
