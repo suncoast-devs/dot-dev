@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "commonjs",                           /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', 'es2020', or 'ESNext'. */
+    "module": "es2020",
+    "moduleResolution": "Node",
     "sourceMap": true,
     "isolatedModules": true,
     "strict": true, 
