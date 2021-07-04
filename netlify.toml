@@ -1,11 +1,5 @@
 [build]
-  command = "astro build"
-
-[dev]
-  command = "astro dev"
-  framework = "#custom"
-  publish = "dist"
-  targetPort = 3000
+  publish = "public"
 
 [functions]
   directory = "functions"
